@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<style>
+    body {
+        font-family: -apple-system sans-serif;
+    }
+
+    div {
+        padding: 0.5em;
+        font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+        display: flex;
+        height: 1.5em;
+    }
+
+    .input {
+        transform: translate(0, -12%);
+    }
+
+    #summit {
+        transform: translate(250%, 1250%);
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="window">
+    <div>
+        <span class="label">
+            <div id="title-label">标题</div>
+            <div id="author-label">作者</div>
+            <div id="org-label">机构</div>
+            <div id="keywords-label">关键词</div>
+            <div id="doi-label">DOI</div>
+            <div id="subject-label">专题</div>
+            <div id="year-label">出版年份</div>
+            <div id="url-label">网址</div>
+        </span>
+        <span class="input">
+            <div><input id="title-input" placeholder="1"></div>
+            <div><input id="author-input" placeholder="2"></div>
+            <div><input id="org-input" placeholder="3"></div>
+            <div><input id="keywords-input" placeholder="4"></div>
+            <div><input id="doi-input" placeholder="5"></div>
+            <div><input id="subject-input" placeholder="6"></div>
+            <div><input id="year-input" placeholder="7"></div>
+            <div><input id="url-input" placeholder="8"></div>
+        </span>
+    </div>
+    <div>
+        <button id="summit">提交(9)</button>
+    </div>
+</div>
+</body>
+</html>
